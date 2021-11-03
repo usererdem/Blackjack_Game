@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <!-- Css -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/cards.png" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav container">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link nav__link--button">Cash Out</a></li>
+        <li class="nav__item nav__item--push-right">100</li>
+        <img class="nav__image" src="images/cards.png" alt="">
+      </ul>
+    </nav>
+  </header>
+  <section class="dealer">
+    <div class="container dealer__layout">
+      <div class="dealer__cards">
+        <img src="images/cards.png" alt="">
+      </div>
+      <div class="dealer__points">
+        <div class="dealer__points--number">
+          <h1>10</h1>
+        </div>
+        <div class="dealer__points--text">
+          <h1>Dealer</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="buttons">
+    <div class="container buttons__layout">
+      <div class="buttons__layout--hit">
+        <button class="btn">Hit</button>
+      </div>
+
+      <div class="buttons__layout--double">
+        <button class="btn">double</button>
+        <h4>100</h4>
+      </div>
+
+      <div class="buttons__layout--stand">
+        <button class="btn">split</button>
+        <button class="btn">stand</button>
+      </div>
+    </div>
+  </section>
+  
+</body>
+
+</html>

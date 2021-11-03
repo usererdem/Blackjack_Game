@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 1.3rem;
+  background: linear-gradient(to right, #52c234, #061700);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1100px;
+
+  gap: 30px;
+}
+
+/* ------- Nav Section ------- */
+header {
+  padding: 1.2rem 0;
+}
+
+.nav__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav__image {
+  width: 2rem;
+}
+
+.nav__item {
+  color: #fff;
+  margin-right: 0.4rem;
+}
+
+.nav__item--push-right {
+  margin-left: auto;
+}
+
+.nav__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav__link--button {
+  background-color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #136c72;
+  font-weight: 400;
+  padding: 0.25em 1em;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.nav__link--button:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: rgba(228, 10, 10, 0.24) 0px 3px 150px;
+}
+
+/* ------- Dealer Section ------- */
+.dealer__layout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dealer__cards {
+  width: 50%;
+  max-width: 20rem;
+  min-width: 10rem;
+}
+
+.dealer__points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dealer__points--number {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(172, 194, 153);
+  border-radius: 50%;
+  margin-left: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dealer__points--text {
+  color: rgb(190, 185, 185);
+}
+
+/* ------- Buttons Section ------- */
+.buttons__layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 3rem;
+}
+
+.buttons__layout--double {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.buttons__layout--stand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #c4e0d0;
+  font-weight: 700;
+  background-color: #5e0c2e;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: rgba(228, 10, 10, 0.24) 0px 3px 150px;
+}
